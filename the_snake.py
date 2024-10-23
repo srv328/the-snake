@@ -108,7 +108,8 @@ class Snake(GameObject):
     """
 
     def __init__(self):
-        """Инициализирует змейку, задает цвет, начальную позицию и направление."""
+        """Инициализирует змейку, задает цвет,
+        начальную позицию и направление."""
         super().__init__()
         self.length = 1
         self.positions = [((SCREEN_WIDTH // 2), (SCREEN_HEIGHT // 2))]
@@ -175,7 +176,8 @@ class Snake(GameObject):
 
 
 def handle_keys(game_object):
-    """Обрабатывает нажатия клавиш, чтобы изменить направление движения змейки."""
+    """Обрабатывает нажатия клавиш,
+    чтобы изменить направление движения змейки."""
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             pygame.quit()
