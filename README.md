@@ -7,7 +7,7 @@ A classic Snake game implementation using Pygame.
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/srv328/the_snake.git
-   cd python-snake-game
+   cd the_snake
    ```
 
 2. **Install dependencies:**
